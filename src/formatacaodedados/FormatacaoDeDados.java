@@ -17,10 +17,17 @@ public class FormatacaoDeDados {
         System.out.println("CEP: "+cepFormatado);
         
         String telefoneFormatado = Mascaras.telefoneFormatado("47256251536");
-        System.out.println("TELEFONE: "+telefoneFormatado);
+        System.out.println("Telefone: "+telefoneFormatado);
         
         String placaCarroFormatado = Mascaras.placaCarroFormatado("abC7894");
-        System.out.println("PLACA DO CARRO: "+placaCarroFormatado);
+        System.out.println("Placa do Carro: "+placaCarroFormatado);
+        
+        int letraContMaiusculo = Mascaras.letraContMaiusculo("Lógica de Programação: Linguagem JAVA");
+        System.out.println("Quantidade de Letras Maiúsculas: "+letraContMaiusculo);
+        
+        int letraContMinusculo = Mascaras.letraContMinusculo("cinco + cinco ");
+        System.out.println("Quantidade de Letras Minúsculas: "+letraContMinusculo);
+        
     }
     
    
